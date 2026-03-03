@@ -723,12 +723,12 @@ main {
 
 
 /**
- * #clients 
+ * #Internship 
  */
 
-.clients { margin-bottom: 15px; }
+.Internship { margin-bottom: 15px; }
 
-.clients-list {
+.Internship-list {
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
@@ -743,18 +743,18 @@ main {
   scroll-padding-inline: 25px;
 }
 
-.clients-item {
+.Internship-item {
   min-width: 50%;
   scroll-snap-align: start;
 }
 
-.clients-item img {
+.Internship-item img {
   width: 100%;
-  filter: grayscale(1);
+  /* filter: grayscale(1); */
   transition: var(--transition-1);
 }
 
-.clients-item img:hover { filter: grayscale(0); }
+.Internship-item img:hover { filter: grayscale(0); }
 
 
 
@@ -872,7 +872,7 @@ main {
 
 
 /*-----------------------------------*\
-  #PORTFOLIO
+  #Certificates
 \*-----------------------------------*/
 
 .filter-list { display: none; }
@@ -1239,12 +1239,12 @@ textarea.form-input::-webkit-resizer { display: none; }
    * client
    */
 
-  .clients-item { min-width: calc(33.33% - 10px); }
+  .Internship-item { min-width: calc(33.33% - 10px); }
 
 
 
   /**
-   * #PORTFOLIO, BLOG 
+   * #Certificates, BLOG 
    */
 
   .project-img,
@@ -1471,16 +1471,16 @@ textarea.form-input::-webkit-resizer { display: none; }
     width: 35px;
   }
 
-  /* clients */
+  /* Internship */
 
-  .clients-list {
+  .Internship-list {
     gap: 50px;
     margin: 0 -30px;
     padding: 45px;
     scroll-padding-inline: 45px;
   }
 
-  .clients-item { min-width: calc(33.33% - 35px); }
+  .Internship-item { min-width: calc(33.33% - 35px); }
 
 
 
@@ -1503,7 +1503,7 @@ textarea.form-input::-webkit-resizer { display: none; }
 
 
   /**
-   * #PORTFOLIO, BLOG
+   * #Certificates, BLOG
    */
 
   .project-img, .blog-banner-box { border-radius: 16px; }
@@ -1596,7 +1596,7 @@ textarea.form-input::-webkit-resizer { display: none; }
 
 
   /**
-   * PORTFOLIO
+   * Certificates
    */
 
   .article-title { padding-bottom: 20px; }
@@ -1622,7 +1622,7 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .filter-item button.active { color: var(--orange-yellow-crayola); }
 
-  /* portfolio and blog grid */
+  /* Certificates and blog grid */
 
   .project-list, .blog-posts-list { grid-template-columns: 1fr 1fr; }
 
@@ -1734,14 +1734,14 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .testimonials-item { min-width: calc(50% - 15px); }
 
-  /* clients */
+  /* Internship */
 
-  .clients-item { min-width: calc(25% - 38px); }
+  .Internship-item { min-width: calc(25% - 38px); }
 
 
 
   /**
-   * PORTFOLIO
+   * Certificates
    */
 
   .project-list { grid-template-columns: repeat(3, 1fr); }
